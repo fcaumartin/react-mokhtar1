@@ -10,7 +10,7 @@ function ListeProduits({liste, nom}) {
       <h2>Liste des produits {nom} </h2>
       {
         liste.map( (ligne) => (
-          <Produit key={ligne.id} id={ligne.id} nom={ligne.nom} prix={ligne.prix} />
+          <Produit key={ligne.id} id={ligne.id} nom={ligne.nom} ></Produit>
         ))
       }
     </div>
